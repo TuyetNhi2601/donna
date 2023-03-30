@@ -25,5 +25,5 @@ Cách chạy chương trình:
 * Đổi file video đầu vào và đổi tên video đầu ra để không bị trùng.
 ![image](https://user-images.githubusercontent.com/122681319/228892245-8201b936-55cf-4136-bb67-6d4752803eba.png)
 * Mở terminal và bấm ‘python dieuhuong.py’ để chạy chương trình.
-* Mở file output_videos và tìm tên video kết quả 
-https://www.youtube.com/watch?v=iRTuCYx6quQ
+* Mở file output_videos và tìm tên video kết quả.
+* Video tham khảo: https://www.youtube.com/watch?v=iRTuCYx6quQ
