@@ -4,37 +4,19 @@
 The Project
 ---
 
-The goals / steps of this project are the following:
+Các mục tiêu / bước của dự án này như sau:
 
-* Compute the camera calibration matrix and distortion coefficients given a set of chessboard images.
-* Apply a distortion correction to raw images.
-* Apply a perspective transform to rectify binary image ("birds-eye view").
-* Use color transforms, gradients, etc., to create a thresholded binary image.
-* Detect lane pixels and fit to find the lane boundary.
-* Determine the curvature of the lane and vehicle position with respect to center.
-* Warp the detected lane boundaries back onto the original image.
-* Output visual display of the lane boundaries and numerical estimation of lane curvature and vehicle position.
+* Tính toán ma trận hiệu chỉnh máy ảnh và các hệ số biến dạng được cung cấp một tập hợp các hình ảnh bàn cờ.
+* Áp dụng hiệu chỉnh biến dạng cho ảnh thô.
+* Áp dụng biến đổi phối cảnh để điều chỉnh hình ảnh nhị phân ("chế độ xem mắt chim").
+* Sử dụng các phép biến đổi màu, độ dốc, v.v. để tạo hình ảnh nhị phân theo ngưỡng.
+* Phát hiện pixel làn đường và điều chỉnh để tìm ranh giới làn đường.
+* Xác định độ cong của làn đường và vị trí xe đối với tâm.
+* Làm cong ranh giới làn đường được phát hiện trở lại hình ảnh ban đầu.
+* Đầu ra hiển thị trực quan ranh giới làn đường và ước tính bằng số về độ cong của làn đường và vị trí phương tiện.
 
-The images for camera calibration are stored in the folder called `camera_cal`.  The images in `test_images` are for testing your pipeline on single frames.
+Hình ảnh để hiệu chỉnh máy ảnh được lưu trữ trong thư mục có tên `camera_cal`. Các hình ảnh trong `test_images` là để kiểm tra quy trình của bạn trên các khung hình đơn lẻ.
 
-The `challenge_video.mp4` video is an extra (and optional) challenge for you if you want to test your pipeline under somewhat trickier conditions.  The `harder_challenge.mp4` video is another optional challenge and is brutal!
+Video `challenge_video.mp4` là một video test bổ sung (và không bắt buộc) dành cho bạn nếu bạn muốn kiểm tra quy trình của mình trong các điều kiện phức tạp hơn một chút. Video `harder_challenge.mp4` là một video test khó hơn nhiều lần!
 
-If you're feeling ambitious (again, totally optional though), don't stop there!  We encourage you to go out and take video of your own, calibrate your camera and show us how you would implement this project from scratch!
-
-## Usage:
-
-### 1. Set up the environment 
-`conda env create -f environment.yml`
-
-To activate the environment:
-
-Window: `conda activate carnd`
-
-Linux, MacOS: `source activate carnd`
-
-### 2. Run the pipeline:
-```bash
-python main.py INPUT_IMAGE OUTPUT_IMAGE_PATH
-python main.py --video INPUT_VIDEO OUTPUT_VIDEO_PATH
-```
 https://www.youtube.com/watch?v=iRTuCYx6quQ
