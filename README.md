@@ -26,4 +26,9 @@ Cách chạy chương trình:
 ![image](https://user-images.githubusercontent.com/122681319/228892245-8201b936-55cf-4136-bb67-6d4752803eba.png)
 * Mở terminal và bấm ‘python dieuhuong.py’ để chạy chương trình.
 * Mở file output_videos và tìm tên video kết quả.
+
+Kết quả đạt được cho thấy chương trình đọc được video về làn đường, phát hiện được làn đường cùng với việc đo đạc khoảng cách trung tâm để định hướng cho việc di chuyển của phương tiện.
+
+![image](https://user-images.githubusercontent.com/122681319/228911611-a73085e7-cd39-4f8b-9024-c50af0013206.png)
+
 * Video tham khảo: https://www.youtube.com/watch?v=iRTuCYx6quQ
